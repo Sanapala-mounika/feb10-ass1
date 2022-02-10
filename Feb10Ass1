@@ -1,0 +1,33 @@
+stuno=int(input('enter stuno value:'))
+stuname=input('enter stuname:')
+stugroup=input('enter stugroup:')
+s1=int(input('mat marks:'))
+s2=int(input('phy marks:'))
+s3=int(input('com marks:'))
+s4=int(input('tel marks:'))
+s5=int(input('eng marks:'))
+s6=int(input('env marks:'))
+if s1>=50 and s2>=50 and s3>=50 and s4>=50 and s5>=50 and s6>=50:
+   print('pass')
+else:
+    print('fail')
+OUTPUT:
+Enter stuno:
+48
+Enter stuname:
+Mouni
+Enter stugroup:
+MPCSC
+mat marks:
+75
+phy marks:
+65
+com marks:
+70
+tel marks:
+55
+eng marks:
+60
+env marks:
+50
+fail
